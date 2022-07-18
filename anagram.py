@@ -9,5 +9,5 @@ def checkAnagram(string1, string2):
 if __name__=='__main__':
     #you can run any test cases here
     print(checkAnagram("god","dog"))
-    name = "doa"
+    
   
