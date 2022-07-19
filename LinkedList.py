@@ -4,9 +4,11 @@ class Node:
         self.next = None
 
 class LinkedList:
+
     def __init__(self):
         self.head = None
         self.last_node = None
+
     def insert(self,data):
         if self.last_node is None:
             self.head = Node(data)
@@ -14,6 +16,7 @@ class LinkedList:
         else:
             self.last_node.next = Node(data)
             self.last_node = self.last_node.next
+            
     def display(self):
         curr = self.head
         while curr is not None:

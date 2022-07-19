@@ -3,8 +3,7 @@ def lengthOfLongestSubstring(s):   #with out repeating charaters
     l = 0
     res = 0
     for r in range(len(s)):
-        while s[r] in charSet:
-            
+        while s[r] in charSet:          
             charSet.remove(s[l])
             print(s[l])
             l += 1
